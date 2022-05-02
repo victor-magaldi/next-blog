@@ -16,10 +16,10 @@ publish_mode: editorial_workflow
 
 collections:
   - name: 'Post'
-    label: 'Post'
+    label: 'posts'
     folder: 'posts'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}.mdx'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {
           label: 'Template Key',
