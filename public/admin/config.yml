@@ -10,8 +10,8 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 local_backend: true
-media_folder: publick/imgs
-public_folder: /img
+media_folder: public/assets
+public_folder: /assets
 publish_mode: editorial_workflow
 
 collections:
@@ -30,10 +30,3 @@ collections:
       - { label: 'title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'imagens upload'
-    name: 'imagens upload'
-    widget: 'image'
-    choose_url: true
-    media_library:
-      config:
-        multiple: true
