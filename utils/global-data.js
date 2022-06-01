@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Victor de Souza Magaldi';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Dev Blog';
+    : '<%Dev Blog%/>';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'todos direitos reservados';
