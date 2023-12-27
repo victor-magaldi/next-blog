@@ -6,9 +6,14 @@ export default function Header({ name }) {
     <header className="pt-20 pb-12">
       <ThemeSwitcher />
       <p className="text-2xl dark:text-white text-center">
+        <Link href="/blog">
+          <a>Blog</a>
+        </Link>
+        <br/>
         <Link href="/">
           <a>{name}</a>
         </Link>
+      
       </p>
     </header>
   );
